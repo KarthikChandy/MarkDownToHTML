@@ -9,7 +9,8 @@ coding: utf-8
 
 1. Crete a folder called **MarkDownToHTML** and perform all the below operations in the folder.
 
-2. Create a file called **index.js** with the below script.
+2. Create a file called **index.js** with the `src/index.js` script.
+   **NOTE :** Make sure to replace values marked as comments with appropriate values.
 
 ```js
 exports.handler = (event, context, callback) => {
@@ -849,28 +850,3 @@ exports.handler = (event, context, callback) => {
 6. In the explorer select all the created files and directory and create a **zip** file. Rename the file to `MarkDownToHTML.zip`.
 
 7. The file is now ready to upload on **AWS Lambda**.
-
-
-## DEMO
----
-
-**Source Bucket** - `aws-trng-syd`
-
-**Destination Bucket** - `sereyo.com`
-
-**Step 1**: Copy MD Files
-
-```awscli
-aws s3 cp --recursive /Users/chandyk/Dropbox/Amazon/MD-notes/ s3://aws-trng-syd/md-demo/
-```
-
-**Step 2**: Test created HTML files.
-
-- Access files on `sereyo.com` bucket.
-
-**Step 3**: Clean up
-
-```awscli
-aws s3 rm s3://aws-trng-syd/md-demo/ --recursive
-aws s3 rm s3://sereyo.com/md-demo/ --recursive
-```
