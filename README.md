@@ -9,7 +9,7 @@ coding: utf-8
 
 1. Crete a folder called **MarkDownToHTML** and perform all the below operations in the folder.
 
-2. Create a file called **index.js** with the `src/index.js` script.
+2. Copy the `src/index.js` file to the directory.
    **NOTE :** Make sure to replace values marked as comments with appropriate values.
 
 ```js
