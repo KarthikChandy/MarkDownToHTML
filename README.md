@@ -5,7 +5,7 @@ title: MarkDown to HTML
 coding: utf-8
 ---
 
-# MarkDown to HTML
+# MarkDown to HTML Converter
 
 1. Crete a folder called **MarkDownToHTML** and perform all the below operations in the folder.
 
