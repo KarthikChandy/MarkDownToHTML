@@ -7,7 +7,7 @@ coding: utf-8
 
 # AWS Lambda MarkDown to HTML Converter
 
-![Demo Summary](Flow.JPG)
+![Demo Summary](images/Flow.JPG)
 
 1. Create a folder called **MarkDownToHTML** and continue to perform all the below operations in the same folder.
 
@@ -157,7 +157,7 @@ exports.handler = (event, context, callback) => {
     - **Send to** - Lambda Function
     - **Lambda** - Select the name of the Lambda Function.
 
-  ![Amazon S3 Events](s3-event.JPG "Amazon S3 Events")
+  ![Amazon S3 Events](images/s3-event.JPG "Amazon S3 Events")
 
 10. All set. Now upload a Mark Down file to the source bucket and see the HTML output in the destination bucket.
     
